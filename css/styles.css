@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #0f642f;
+}
+
+/* Grid de Noticias*/
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px; 
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.card {
+    width: 31%;
+    margin: 1% 1%; 
+    display:inline-block;
+    padding: 15px;
+    
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;  
+    background-size:cover;
+}
+
+#img-1 {
+    background-image: url('../img/img/1e4411dd5bec3a75acea9745783a9ce1.webp');
+}
+
+#img-2 {
+    background-image: url('../img/img/futebol-brasil.webp');
+}
+
+#img-3 {
+    background-image: url('../img/img/man-utd-v-man-city-fa-cup-final-preview--besoccer.jpg');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    border-left: 5px solid #0f642f;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    transition: 3s;
+}
+
+.btn:hover {
+    background-color: #0f642f;
+}
+
+/* Footer */
+footer {
+    background-color: #3db36b;
+    color: #fff;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+    padding: 80px;
+}
